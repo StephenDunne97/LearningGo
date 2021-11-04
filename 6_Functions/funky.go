@@ -1,3 +1,10 @@
+/*
+Author: Stephen Dunne
+Date: 04.11.2021
+Title: Functions
+Desc: Demonstrate functions functionality in Go
+*/
+
 package main
 
 import "fmt"
