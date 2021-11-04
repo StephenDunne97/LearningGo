@@ -24,7 +24,7 @@ func pointerDemo(x int, yPtr *int) {
 
 func main() {
 	x := 0
-	y := 0
+	y := 0             // Could delcare a variable like "z := &y and pass that to the function."
 	pointerDemo(x, &y) // & gets the address in memory where y is stored
 	fmt.Println(x, y)  // X stays as 0, Y changes to 5
 }
